@@ -10,16 +10,22 @@ The project involves creating an interactive chatboard for a food website using 
 #2.
 Directory structure
 ===================
+
+
 backend: Contains Python FastAPI backend code
 db: contains the dump of the database. you need to import this into your MySQL db by using MySQL workbench tool
 dialogflow_assets: this has training phrases etc. for our intents
 frontend: website code
 #3.
+
+
 Install these modules
 ======================
 
 pip install mysql-connector
 pip install "fastapi[all]"
+
+
 #4
 To start fastapi backend server
 ================================
